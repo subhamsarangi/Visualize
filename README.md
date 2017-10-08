@@ -14,7 +14,6 @@ ___
     - [Regression Plots with Seaborn](https://github.com/subhamsarangi/Visualize/blob/master/plt/6_seaborn_regression.ipynb)
 
 # Here are some plots:
-
 ### 2D Plots (Scatter-plot, Step-plot, Bar-plot, Fill Between-Plot)
 ```python
 fig, axes = plt.subplots( 1, 4, figsize=(12,3))
@@ -33,6 +32,7 @@ axes[3].set_title("fill_between")
 ![2D Plots](https://raw.githubusercontent.com/subhamsarangi/Visualize/master/plt/images/08%20other2D.png)
 
 
+
 ### A 3D Plot (Contour plots with projection) 
 ```python
 fig = plt.figure( figsize=( 12,10 ) )
@@ -48,13 +48,15 @@ ax.set_zlim3d( -np.pi, 2*np.pi )
 ![3D plot](https://raw.githubusercontent.com/subhamsarangi/Visualize/master/plt/images/16%20contour_proj.png)
 
 
+
 ### Heatmap
 ```python
 flights = sns.load_dataset( 'flights' )
 fpt=flights.pivot_table( index='month',columns='year',values='passengers' )
 sns.heatmap( fpt, cmap='coolwarm' )
 ```
-![Heatmaps](https://raw.githubusercontent.com/subhamsarangi/Visualize/master/plt/images/sns_13heatmap_lines.png)
+![Heatmaps](https://raw.githubusercontent.com/subhamsarangi/Visualize/master/plt/images/sns_13heatmap.png)
+
 
 
 ### Linear Model Plot
@@ -63,6 +65,7 @@ tips = sns.load_dataset('tips')
 sns.lmplot(x='total_bill',y='tip',data=tips,hue='sex',markers=['o','v'],scatter_kws={'s':100})
 ```
 ![LM Plot](https://raw.githubusercontent.com/subhamsarangi/Visualize/master/plt/images/sns_16lmplot_2.png)
+
 
 
 ### Joint Plot
