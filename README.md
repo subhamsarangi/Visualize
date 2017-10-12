@@ -4,8 +4,8 @@ ___
      Matplotlib is a Python 2D plotting library. [Official Website](https://matplotlib.org/), [Gallery](https://matplotlib.org/gallery.html)
      
      ___IPython Notebooks___
-     - [Basics of the Matplotlib Framework](https://github.com/subhamsarangi/Visualize/blob/master/plt/1.%20matplotlib_basics.ipynb)
-     - [Advanced Matlpotlib](https://github.com/subhamsarangi/Visualize/blob/master/plt/2.%20matplotlib_advanced.ipynb)
+     - [Basics of the Matplotlib Framework](https://github.com/subhamsarangi/Visualize/blob/master/plt/1.%20matplotlib_basics.ipynb), 
+     - [Advanced Matlpotlib](https://github.com/subhamsarangi/Visualize/blob/master/plt/2.%20matplotlib_advanced.ipynb) ([nbviewer](http://nbviewer.jupyter.org/github/subhamsarangi/Visualize/blob/master/plt/2.%20matplotlib_advanced.ipynb))
 
 - Seaborn is a library for making attractive and informative statistical graphics in Python [Official Website](https://seaborn.pydata.org/), [Gallery](http://seaborn.pydata.org/examples/)
      
